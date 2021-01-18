@@ -12,14 +12,19 @@ Some applications of this methodology could be,
 ## Goal
 * Find relevant apps for a given query
 
-## Methodlogy
-For this project, we use publicly available dataset from Mobile App statistics. It has 7200 ios apps & their meta-data such as title, app description etc.  
+## Methodology
+For this project, we use a publicly available dataset on iOS App store apps. It has 7200 ios apps & their meta-data such as title, app description etc.  
 
 * Step 1 : Tokenization & normalization of words in app description
-* Step 2 : Represent words as embedings
-* Step 3 : Calculate app vectors 
+* Step 2 : Represent words as embeddings using word2vec trained on Google News
+* Step 3 : Calculate app vectors from app descirption
 * Step 4 : Find nearest apps to a given query by using KNN 
 * Step 5 : Visualize results using t-SNE
 
 ## Results
-![Results for the real life queries such as "mystery games"](https://github.com/sroy4/App-Store-Search/blob/main/mystery%20game.png)
+
+![Results for the query "wedding party"](https://github.com/sroy4/App-Store-Search/blob/main/wedding_party.png)
+
+Let's take a look at results for the query "wedding party". All app results are related to a wedding party in different ways. The first result, Wedding Dash result is a wedding game. The second result, Big Day Lite is a countdown timer app for the wedding. The third result, LEDit is an LED banner app for the wedding. The fourth result, Open Table is an app for making restaurants reservations for the wedding. And the final result is Shutterfly, an app for creating wedding cards and photobooks. Word2Vec is able to account for deep semantic relationships between these apps.
+
+![Results for the query "mystery games"](https://github.com/sroy4/App-Store-Search/blob/main/mystery%20game.png)
