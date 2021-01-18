@@ -10,7 +10,10 @@ Some applications of this methodology could be,
 * Current Website : When people who came to this website, they also browse Y
 
 ## Goal
+
 * Find relevant apps for a given query
+* Find apps similar to other apps
+* Find apps for a given genre
 
 ## Methodology
 For this project, we use a publicly available dataset on iOS App store apps. It has 7200 ios apps & their meta-data such as title, app description etc.  
