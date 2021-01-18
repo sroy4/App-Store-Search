@@ -24,7 +24,9 @@ For this project, we use a publicly available dataset on iOS App store apps. It 
 ![You can view this presentation for more details](https://github.com/sroy4/App-Store-Search/blob/main/FinalPresentation.pdf)  
 ## Results
 For visualization, I have used t-SNE (stochastic neighbor embedding) for visualizing high-dimensional data in a low dimension space. In this image below, you can see similar apps are assigned a higher probability for a given genre while dissimilar points are assigned a very low probability. Each cluster represents a genre of apps. 
-!["Clusters of similar apps"](https://github.com/sroy4/App-Store-Search/blob/main/wedding_party.png)
+
+![Clusters of Similar apps](https://github.com/sroy4/App-Store-Search/blob/main/Simialr%20App%20Clustering.png)
+
 
 Let's take a look at results for the query "wedding party". All app results are related to a wedding party in different ways. The first result, Wedding Dash result is a wedding game. The second result, Big Day Lite is a countdown timer app for the wedding. The third result, LEDit is an LED banner app for the wedding. The fourth result, Open Table is an app for making restaurants reservations for the wedding. And the final result is Shutterfly, an app for creating wedding cards and photobooks. Word2Vec is able to account for deep semantic relationships between these apps.
 
