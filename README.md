@@ -21,6 +21,7 @@ For this project, we use a publicly available dataset on iOS App store apps. It 
 * Step 4 : Find nearest apps to a given query by using KNN 
 * Step 5 : Visualize results using t-SNE
 
+![You can view this presentation for more details](https://github.com/sroy4/App-Store-Search/blob/main/FinalPresentation.pdf)  
 ## Results
 
 ![Results for the query "wedding party"](https://github.com/sroy4/App-Store-Search/blob/main/wedding_party.png)
