@@ -24,7 +24,7 @@ For this project, we use a publicly available dataset on iOS App store apps. It 
 ![You can view this presentation for more details](https://github.com/sroy4/App-Store-Search/blob/main/FinalPresentation.pdf)  
 ## Results
 For visualization, I have used t-SNE (stochastic neighbor embedding) for visualizing high-dimensional data in a low dimension space. In this image below, you can see similar apps are assigned a higher probability for a given genre while dissimilar points are assigned a very low probability. Each cluster represents a genre of apps. 
-(https://github.com/sroy4/App-Store-Search/blob/main/Simialr%20App%20Clustering.png)
+![Clusters of similar apps ](https://github.com/sroy4/App-Store-Search/blob/main/wedding_party.png)
 
 ![Results for the query "wedding party"](https://github.com/sroy4/App-Store-Search/blob/main/wedding_party.png)
 
