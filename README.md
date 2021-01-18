@@ -20,3 +20,6 @@ For this project, we use publicly available dataset from Mobile App statistics. 
 * Step 3 : Calculate app vectors 
 * Step 4 : Find nearest apps to a given query by using KNN 
 * Step 5 : Visualize results using t-SNE
+
+## Results
+![Results for the real life queries such as "mystery games"]()
