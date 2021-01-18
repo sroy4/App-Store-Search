@@ -22,4 +22,4 @@ For this project, we use publicly available dataset from Mobile App statistics. 
 * Step 5 : Visualize results using t-SNE
 
 ## Results
-![Results for the real life queries such as "mystery games"]()
+![Results for the real life queries such as "mystery games"](https://github.com/sroy4/App-Store-Search/blob/main/mystery%20game.png)
