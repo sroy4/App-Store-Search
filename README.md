@@ -25,6 +25,7 @@ For this project, we use a publicly available dataset on iOS App store apps. It 
 * Step 5 : Visualize results using t-SNE
 
 ![You can view this presentation for more details](https://github.com/sroy4/App-Store-Search/blob/main/FinalPresentation.pdf)  
+
 ## Results
 For visualization, I have used t-SNE (stochastic neighbor embedding) for visualizing high-dimensional data in a low dimension space. In this image below, you can see similar apps are assigned a higher probability for a given genre while dissimilar points are assigned a very low probability. Each cluster represents a genre of apps. 
 
